@@ -1,0 +1,164 @@
+#labels EP2C8,2010
+├─FPGA
+│  ├─_10_beep_matrixKeyboard
+│  │  └─src
+│  ├─_11_lcd1602_test
+│  │  └─src
+│  ├─_12_lcd1602_clock
+│  │  └─src
+│  ├─_13_vga_color_slip
+│  │  ├─640x480_60_25M
+│  │  │  └─src
+│  │  └─800x600_72_50M
+│  │      └─src
+│  ├─_14_vga_char
+│  │  └─800x600_72_50M
+│  │      └─src
+│  ├─_15_uart_tx_test
+│  │  └─src
+│  ├─_16_uart_rx_test
+│  │  └─src
+│  ├─_17_ps2_keyboard_test
+│  │  └─src
+│  ├─_18_ds18b20_seg7
+│  │  └─src
+│  ├─_1_turn_on_led
+│  │  └─src
+│  ├─_2_sw_led
+│  │  └─src
+│  ├─_3_rider_led
+│  │  └─src
+│  ├─_4_water_led
+│  │  └─src
+│  ├─_5_key_led_without_debounce
+│  │  └─src
+│  ├─_6_key_led_with_debounce
+│  │  └─src
+│  ├─_7_seg7x8_dynamic_disp
+│  │  └─src
+│  ├─_8_matrixKeyboard_seg7
+│  │  └─src
+│  └─_9_beep_test
+│      └─src
+├─Nios
+│  ├─_00_Amy_S_ip
+│  │  ├─Amy_S_lcd12864
+│  │  │  └─c_demo
+│  │  ├─Amy_S_max7219
+│  │  │  └─c_demo
+│  │  ├─Amy_S_n5110_lcd
+│  │  │  └─c_demo
+│  │  └─Amy_S_seg7x8
+│  │      └─c_demo
+│  ├─_1_key_led_test
+│  │  ├─.sopc_builder
+│  │  ├─nios0_sim
+│  │  └─software
+│  │      ├─key_irq_led_test
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      └─obj
+│  │      ├─key_irq_led_test_syslib
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      ├─obj
+│  │      │      └─system_description
+│  │      ├─led_test
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      └─obj
+│  │      └─led_test_syslib
+│  │          ├─.settings
+│  │          └─Debug
+│  │              ├─obj
+│  │              └─system_description
+│  ├─_2_seg7x8_test
+│  │  ├─.sopc_builder
+│  │  ├─ip
+│  │  │  └─Amy_S_seg7x8
+│  │  ├─nios0_sim
+│  │  └─software
+│  │      ├─seg7x8_test
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      └─obj
+│  │      └─seg7x8_test_syslib
+│  │          ├─.settings
+│  │          └─Debug
+│  │              ├─obj
+│  │              └─system_description
+│  ├─_3_uart_test
+│  │  ├─.sopc_builder
+│  │  ├─nios0_sim
+│  │  └─software
+│  │      ├─uart_test
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      └─obj
+│  │      └─uart_test_syslib
+│  │          ├─.settings
+│  │          └─Debug
+│  │              ├─obj
+│  │              └─system_description
+│  ├─_4_max7219_test
+│  │  ├─.sopc_builder
+│  │  ├─ip
+│  │  │  └─Amy_S_max7219
+│  │  │      └─c_demo
+│  │  ├─nios0_sim
+│  │  └─software
+│  │      ├─max7219_test
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      └─obj
+│  │      └─max7219_test_syslib
+│  │          ├─.settings
+│  │          └─Debug
+│  │              ├─obj
+│  │              └─system_description
+│  ├─_5_lcd1602_test
+│  │  ├─.sopc_builder
+│  │  ├─nios0_sim
+│  │  └─software
+│  │      ├─lcd1602_test
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      └─obj
+│  │      └─lcd1602_test_syslib
+│  │          ├─.settings
+│  │          └─Debug
+│  │              ├─obj
+│  │              └─system_description
+│  ├─_6_lcd12864_test
+│  │  ├─.sopc_builder
+│  │  ├─ip
+│  │  │  └─Amy_S_lcd12864
+│  │  │      └─c_demo
+│  │  ├─nios0_sim
+│  │  └─software
+│  │      ├─lcd12864_test
+│  │      │  ├─.settings
+│  │      │  └─Debug
+│  │      │      └─obj
+│  │      └─lcd12864_test_syslib
+│  │          ├─.settings
+│  │          └─Debug
+│  │              ├─obj
+│  │              └─system_description
+│  └─_7_n5110_lcd_test
+│      ├─.sopc_builder
+│      ├─ip
+│      │  └─Amy_S_n5110_lcd
+│      │      └─c_demo
+│      ├─nios0_sim
+│      └─software
+│          ├─n5110_lcd_test
+│          │  ├─.settings
+│          │  └─Debug
+│          │      └─obj
+│          └─n5110_lcd_test_syslib
+│              ├─.settings
+│              └─Debug
+│                  ├─obj
+│                  └─system_description
+└─原理图
